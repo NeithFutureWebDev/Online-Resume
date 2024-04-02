@@ -1,0 +1,168 @@
+body {
+  /* display: flex; */
+  
+  background-color: #480449;
+ justify-content: center;
+ 
+ 
+}
+.main_container {
+ /* border: 10px solid yellow; */
+ font-family: "Righteous", san-serif;
+ margin: 5em 15em;
+ background-image: linear-gradient(#521168, #FF8000);
+   box-shadow:-10px 20px 45px 20px rgb(0, 0, 0) ;
+   border-radius: 30px;
+   padding-top: 20px;
+   padding-bottom: 60px;
+ /* padding-right: 100px;
+     padding-left: 100px;
+     Margin */
+}
+
+.section1 {
+  /* width: 500px; */
+  display: flex;
+  padding-left: 10px;
+  /* align-items: center; */
+  /* width: 70%; */
+  
+  
+}
+/* box 1 css */
+.box1 {
+  /* border: 5px solid indigo; */
+  /* min-width: 60%; */
+  height: 350px;
+  width: 65%;
+  padding-left: 20px;
+  /* display: flex; */
+
+}
+
+.box1 > img{
+  float: left; 
+  margin: 50px 35px 10px 40px;
+  box-shadow: -20px 15px 40px 10px rgb(0, 0, 0) ;
+  border-radius: 50%;
+  /* border: 10px solid #ffc42e; */
+  
+}
+.box1 > h1 {
+  /* float:right; */
+  font-size: 55px;
+  font-family: "Honk", san-serif;
+}
+
+#occupation {
+  font-family: "Righteous", san-serif;
+  font-weight:lighter;
+  font-size: 20px;
+  width: 30px;
+}
+
+/* .name_occ {
+  margin-top: 400px;
+} */
+
+/* box 2 css */
+.box2 {
+  /* border: 5px solid indigo; */
+  /* float: right;  */
+  font-family: "Righteous", san-serif;
+  margin-top: 50px ;
+  margin-left: 100px;
+
+  width: 50%;
+  height: 350px;
+ 
+  
+  
+  /* padding-leftax: 30px; */
+  
+ 
+}
+.box2 span {
+    /* display:inline; */
+    font-weight: bold;
+    font-size: larger;
+    margin-right: 40px;
+    /* display: inline; */
+   text-align: end;
+  
+  
+    
+}
+ .box3 {
+  /* border: 5px solid indigo; */
+  font-family: "Righteous", san-serif;
+  font-size: larger;
+  padding: 0px 30px 0px 30px;
+ 
+ }
+
+hr {
+  width: 98%;
+  background-color: black;
+  height: 1px;
+  border-color: black;
+ }
+
+ /* bottom Portion */
+ #bottom {
+   /* justify-content: end;
+   display: flex;
+   flex-direction: column; */
+   
+  }
+  .section2{
+    padding: 0px 30px 0px 30px;
+    width: 65%; 
+    
+    
+  }
+  .section2 > h2{
+    font-family: "Honk", san-serif;
+    font-size: 40px; 
+  }
+  
+  #year{
+    
+    display: flex;
+    justify-content: end;
+    
+  }
+  .section3 {
+    padding: 0px 30px 0px 30px;
+
+ flex-direction: column;   
+ /* width:30%; */
+  float: right;
+} 
+
+.section3 > h2{
+  font-family: "Honk", san-serif;
+  font-size: 40px;
+
+
+}
+
+#r1{background-color: green;}
+#r2{}
+#r3{}
+#r4{}
+#r5{}
+
+#c1{background-color: green;}
+#c2{}
+#c3{}
+#c4{}
+#c5{}
+
+#lang{
+  padding-bottom: 10px;
+}
+
+/* media query */
+@media media-type (max-width: 1000px)
+
